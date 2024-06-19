@@ -1,0 +1,46 @@
+• Minimax
+Algoritmo de búsqueda adversaria sirve para elegir la jugada óptima entre todas las disponibles, para un estado en concreto.
+Se expande el espacio de estados y se asigna un valor (o utilidad) a cada estado.
+Se tiene dos jugadores:
+	- Max (X): trata de maximizar la utilidad
+	- Min (O): trata de minimizar la utilidad
+
+	• Componentes:
+		E0: Estado Inicial
+		Jugador(Estado): a qué jugador le toca?
+		Acciones(Estado): qué acciones se pueden tomar desde un estado
+		Resultado(Estado, Acción): Qué estado resulta de tomar dada acción
+		Terminal(Estado): Es un estado terminal?
+		Utilidad(Estado): Valor numérico para un estado terminal
+
+	• Pseudoalgoritmo:
+		Dado un estado E, si es el turno de:
+		MAX: elige una acción A de Acciones(E) que produce el valor más alto de ValorMinimo( Resultado(E, A) )
+		
+		MIN: elige una acción A de Acciones(E) que produce el valor más bajo de ValorMaximo( Resultado(E, A) )
+
+		ValorMinimo(E: Estado)
+			Si terminal?(E)
+				retornar Utilidad(E)
+			v = infinito
+			para cada acción A de Acciones(E):
+				v = min(v, ValorMaximo( Resultado(E, A) )
+			retornar v
+		_____________________________________________________
+
+		ValorMaximo(E: Estado)
+ 			Si terminal?(E)
+	 			retornar Utilidad(E)
+			v = -infinito
+			para cada acción A de Acciones(E):
+ 				v = max(v, ValorMinimo( Resultado(E, A) )
+			retornar v
+
+• Poda alfa-beta
+	Poda alfa-beta es una variante optimizada de Minimax. En lugar de evaluar todas las jugadas posibles, la poda alfa-beta elimina las ramas que no afectan a la decisión final, reduciendo el número de 	nodos evaluados.
+
+• Profundidad limitada
+	El algoritmo Minimax con profundidad limitada consiste en limitar la profundidad a la que se exploran las posibles jugadas.
+	En vez de explorar todas las posibilidades de juego, el agente se detiene después de un número fijo de niveles de profundidad.
+
+

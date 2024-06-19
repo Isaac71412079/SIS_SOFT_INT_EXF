@@ -1,0 +1,43 @@
+• Historia 
+• Warren McCulloch & Walter Pits
+Propusieron el modelo de Neurona artificial, cada neurona puede estar prendida o apagada (1, 0).
+La neurona se prende en respuesta al estímulo suficiente de neuronas vecinas.
+	- Todas las compuertas lógicas pueden ser implementadas con neuronas.
+	- Cualquier función puede representarse con redes de neuronas conetadas.
+
+• Regla de Hebb
+Las neuronas que se disparan juntas se conectan juntas.
+Las neuronas se fortalecen o se debilitan en función a la actividad simultánea de las neuronas pre y post sinápticas.
+
+• GPS (General Problem Solver)
+Desarrollado Herbert Simon y Allen Newell, es una combinacion de heurísticas y algoritmos, se enfoca en la descomposición de problemas subjetivos manejables y la búsqueda de soluciones a través de espacio de estados.
+	- EL GPS descompone el objetivo final en objetivos intermedios más pequeños y selecciona acciones efectivas para resolver el problema
+	- El algoritmo está compuesto por estado final, estado inicial y operadores (acciones)
+• Lisp
+John McCarthy desarrolla Lisp (List Processing), lenguaje de alto nivel basado en listas, el introdujo la recursión y funciones de orden superior.
+En uno de sus artículos presenta Advice Taker de consejos. Es un programa hipotético que utiliza conocimiento declarativo del mundo para generar plane de acción. Sentó bases para sistemas expertos.
+
+• Perceptron de RossenBlatt
+Basado en la neurona artificial de McCulloch y Pits. Este es capaz de realizar clasificaciones binarias mediante la combinación de múltiples entradas y una función escalón. Consta de múltiple entradas numéricas cada una con su peso que determina su importancia relativa. Produce una salida binaria que se activa cuando la suma ponderada de las entradas supera el umbral predefinido que generalmente es 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

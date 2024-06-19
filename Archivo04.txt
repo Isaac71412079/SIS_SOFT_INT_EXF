@@ -1,0 +1,26 @@
+Problemas de búsqueda
+- Agente: Entidad que percibe su entorno y actúa en él.
+
+	• Composición:
+		- Estado inicial
+		- Acciones
+		- Modelo de transición
+		- Prueba de objetivo
+		- Costos de ruta
+
+• Estados: Alguna configuración del agente y su entorno.
+• Acciones: Opciones que se pueden tomar en un estado. 
+
+• Modelo de transición
+El modelo de transición es una descripción de los estados que resultan al aplicar acciones válidas a cualquier estado.
+Modelo de transición como función computacional, La función retorna un Estado como resultado de aplicar la Acción de entrada al Estado de entrada.
+
+• Espacio de Estados: es el modelo de transición desde una perspectiva general a través de todo el problema.
+Representación del problema donde se encuentran los estados individuales conectados por flechas que indican las posibles acciones que se pueden tomar, pueden ser muy grandes y complicados, para simplificar esto, también se utiliza la representación tradicional de grafos. Donde los nodos representan estados y los vértices representan las acciones.
+
+• Prueba de objetivo: Manera de determinar si un estado en concreto es el deseado, , es posible que exista un o múltiples objetivos.
+
+• Costo de Ruta: Costo numérico asociado a una ruta específica, puede ser dinero, tiempo u otra métrica.
+
+=> Solución óptima: La solución que implica el menor costo entre todas las soluciones, es decir, que no existe una mejor solución.
+

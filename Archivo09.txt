@@ -1,0 +1,131 @@
+• Aprendizaje
+Aprender Adquirir el conocimiento de algo por medio del estudio o de la experiencia.
+
+• Aprendizaje por refuerzo
+Dado un set de recompensas y penalizaciones, el agente aprende qué acciones toma en el futuro.
+
+• Aprendizaje SupervisadoAprender patrones de datos de entrada con un objetivo que retroalimentar.
+
+• Clasificación
+Tarea de aprendizaje de una función mapa entre una entrada y una salida discreta.
+
+• Regresión
+Tarea de aprendizaje de una función mapa entre una entrada y una salida continua.
+
+• Aprendizaje NO SupervisadoAprender patrones de datos de entrada, sin ningún tipo de retroalimentación.
+
+• Agrupamiento (Clustering)
+Organizar un conjunto de objetos en grupos de tal manera que objetos similares tienden a estar en el mismo grupo.
+
+• Análisis Exploratorio
+Es un enfoque de análisis de datos que sirve para entender y resumir sus
+características principales, a menudo visualizando los datos.
+Se aplica para:
+	- Obtener información sobre un conjunto de datos
+	- Identificar valores faltantes o nulos
+	- Descubrir la estructura subyacente
+	- Encontrar variables importantes e identificar sus relaciones
+	- Detectar valores atípicos y anomalías
+	- Generar hipótesis y plantear preguntas
+
+• Análisis univariable
+Es la forma más simple de análisis, donde solo se analiza una variable. Por lo tanto, no se trata con relaciones o causas.
+	- Tendencia central:
+		Media:
+			• Representa el valor promedio en un conjunto de datos.
+			• Se calcula sumando todos los valores y dividiéndolos por el número total de observaciones.
+			• Sensible a los valores extremos.
+		Mediana:
+			• Representa el valor central en un conjunto de datos ordenados.
+			• Divide el conjunto de datos en dos partes iguales.
+			• No se ve afectada por valores extremos y es útil para datos sesgados.
+		Moda:
+			• Representa el valor más frecuente en un conjunto de datos.
+			• Puede haber una moda (unimodal), dos modas (bimodal) o más (multimodal).
+			• No requiere datos numéricos y puede aplicarse a variables categóricas.
+
+• Sesgo
+La asimetría de la distribución. El sesgo (bias) es una tendencia sistemática que puede afectar la interpretación y los resultados de un análisis de datos, modelo estadístico, experimento o toma de decisiones.
+
+• Dispersión 
+	Mínimo (Min):
+		- Representa el valor más pequeño
+		- Indica el límite inferior de la distribución
+
+	Máximo (Max):
+		- Representa el valor más grande
+		- Indica el límite superior
+
+	Varianza:
+		- Mide la dispersión de los datos respecto a la media.
+		- A mayor varianza, mayor dispersión de los datos.
+
+	Desviación Estándar:
+		- Es la raíz cuadrada de la varianza.
+		- Proporciona una medida de dispersión que tiene la misma unidad que los datos.	
+	Cuantiles:
+		- Medidas que dividen un conjunto de datos en partes iguales donde el número de partes es determinado por el cuantil específico. 
+	
+	Cuartiles (4 partes iguales):
+		- Primer Cuartil (Q1):
+			• Divide los datos en el 25% inferior.
+			• Representa el valor por debajo del cual se encuentra el 25% de los datos.
+		- Segundo Cuartil (Q2):
+			• Es la mediana del conjunto de datos.
+			• Divide los datos en el 50% inferior y 50% superior.
+		- Tercer Cuartil (Q3):
+			• Divide los datos en el 75% inferior.
+			• Representa el valor por debajo del cual se encuentra el 75% de los datos.
+
+• Análisis bivariable
+Es el análisis simultáneo de dos o más variables. Donde se exploran sus relaciones.
+Ejemplos de técnicas:
+	- Gráficos de dispersión para variables numéricas
+	- Gráficos de barras para variables categóricas
+	- Coeficiente de correlación para medir la relación lineal entre dos variables numéricas.
+La matriz de correlaciones muestra los coeficientes de correlación entre las variables
+	- Un valor cercano a 1 indica una correlación positiva fuerte (a medida que una variable aumenta, la otra también tiende a aumentar).
+	- Un valor cercano a -1 indica correlación negativa fuerte (a medida que una variable aumenta, la otra tiende a disminuir).
+	- Un valor cercano a 0 indica una correlación débil o ninguna correlación lineal.
+
+• Correlación no es Causalidad
+Observar que dos variables se mueven conjuntamente no significa necesariamente que una variable sea la causa de la otra.
+“La correlación no implica causalidad”
+	- Una correlación fuerte puede ser resultado del azar, pero en realidad no hay una relación subyacente
+	- Causalidad es la conclusión de que X causa Y.
+	- Sé critico(a) al realizar predicciones.
+
+• Análisis Multivariable
+Explora las relaciones complejas entre tres o más variables
+A parte de las técnicas de visualización, se incluyen:
+	• Análisis de regresión
+	• Análisis de componentes principales (PCA)
+	• Gráficos de dispersión en 3D
+	• Análisis de correlación múltiple
+• Pre-procesamiento de Datos
+	Importar
+	Limpiar
+	Crear Features
+	Dividir en set de entrenamiento y de prueba
+
+• Modelado
+	Construir/Definir
+	Entrenar
+	Hacer predicciones
+
+• Evaluación
+	Calcular medidas de rendimiento
+	Definir los siguientes pasos
+
+
+
+
+
+
+
+
+
+
+
+
+

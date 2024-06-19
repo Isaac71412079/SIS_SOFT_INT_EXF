@@ -1,0 +1,73 @@
+Búsqueda
+
+• En amplitud (BFS)
+	Explora los nodos vecinos antes de profundizar. Usa una lista (FIFO).
+• En profunidad (DFS)
+	Explora primero en profundidad antes de retroceder. Usa una pila (LIFO).
+Aspecto                     	Búsqueda en Amplitud (BFS)                      		Búsqueda en Profundidad (DFS)
+-----------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------
+Estrategia de exploración   	Explora primero todos los nodos vecinos antes   		Explora primero en profundidad antes
+                            		de profundizar                                 			de retroceder
+
+Estructura de datos         	Utiliza una cola (FIFO)                       			Utiliza una pila (LIFO)
+
+Completitud                 	Garantiza completitud si no hay ciclos en el   		No garantiza completitud si hay ciclos
+                            		grafo                                          			en el grafo
+
+Eficiencia en memoria       	Puede requerir más memoria ya que debe         		Requiere menos memoria ya que solo
+                            		almacenar todos los nodos en el mismo nivel    		necesita almacenar un camino a la vez
+                            		antes de pasar al siguiente nivel
+
+Eficiencia en tiempo        	Generalmente más lento que DFS en grafos      		Puede ser más rápido en algunos casos,
+                            		finitos y poco profundos, pero puede ser más  		especialmente si la solución está en
+                            		eficiente en grafos grandes y densos con       		un nivel más profundo
+                            		soluciones en niveles poco profundos
+
+Solución encontrada         	Garantiza encontrar la solución más cercana    		No garantiza encontrar la solución más
+                            		al origen                                      			cercana al origen
+-----------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------
+
+• Búsqueda No Informada	- DFS y BFS como tal son búsquedas no informadas.
+	- Estas técnicas se basan únicamente en la estructura del espacio de búsqueda. Exploran las opciones de manera sistemática y desconocen aspectos específicos del problema.
+
+• Búsqueda Informada
+	- Estos algoritmos utilizan información adicional sobre el problema (heurísticas) para guiar la exploración de una solución de manera más eficiente.
+
+- Búsqueda (ciega) Pseudoalgoritmo
+	• Ningún estado ha sido visitado
+	• Una colección de datos (frontera) contiene el estado inicial
+	• Repetir
+		• Si la frontera está vacía, no existe una solución
+		• Se (quita) un estado de la frontera y se lo marca como visitado
+		• Si el estado actual es el buscado, se retorna la solución
+		• Se (expande) las acciones del estado actual, para cada una:
+			• se añade a la frontera los que todavía no están y los que ya fueron visitados.
+
+NOTA: los términos en parentesis son polimórficos
+
+
+• Uniform Cost Search
+	- Algoritmo no informado que recorre grafos ponderados buscando el costo mínimo desde un nodo inicial hasta otro objetivo, a diferencia de Dijkstra que es un algoritmo de
+	  recorrido comprensivo (visita todos los nodos), mientras UCS se detiene cuando encuentra el camino más corto al destino.
+
+• Greedy Best-First Search
+	- Algoritmo de búsqueda que siempre expande el nodo más cercano al objetivo, bajo la estimación de una función heurística h(n).
+	- Distancia Manhattan: Es una medida de la distancia entre dos puntos en un espacio euclidiano con coordenadas rectangulares. 
+		Es decir, si tienes dos puntos A y B con coordenadas (x1, y1) y (x2, y2) respectivamente, la distancia Manhattan entre A y B se calcula como:
+
+			Distancia Manhattan = |x2 - x1| + |y2 - y1| 
+
+• A* o A estrellaAlgoritmo de búsqueda informada que expande el estado con el coste mínimo de llegar a ese estado mas la estimación de llegar al objetivo.
+		g(n) + h(n)
+		g(n): costo de llegar al estado
+		h(n): estimación de costo para llegar al objetivo
+
+	- Condiciones para la optimidad
+		1. La heurística es admisible: nunca sobreestima el costo real
+		2. La heurística es consistente: para cada estado n y un estado siguiente n' con costo de acción c.
+			h( n ) <= h( n’) + c
+
+
+
+
+

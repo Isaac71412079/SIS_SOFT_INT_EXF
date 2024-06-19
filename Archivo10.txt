@@ -1,0 +1,85 @@
+• Descubrimientos neurocientíficos
+1943 McCulloch & Pitts propusieron el primer modelo basado en el cerebro(MCP)
+Demostraron que es posible modelar cualquier función lógica. 
+
+1949 Donald Hebb
+"Neurons that fire together, wiretogether” 
+La sipansis entre neuronas se fortalecen o debilitan en función a la actividad simultánea de las neuronas pre y post sinápticas. 
+
+Cibernética
+1957 Perceptrón de Rosenblatt
+Primer modelo de red neuronal capaz de aprender a partir de ejemplos
+Tiene salida binaria. Limitado en resolver problemas no-lineales (por ejemplo XOR)
+
+
+• Conexionismo
+A mediados de 1980 al menos cuatro grupos de investigadores diferentes “reinventaron" el algoritmo de aprendizaje backpropagation. 
+
+• Red Neuronal Artificial
+Modelo matemático de aprendizaje automático inspirado en redes neuronales naturales.
+Modelan funciones matemáticas de entrada y salida en base a su estructura y parámetros de la red.
+Permite aprender los parámetros de una red basándose en datos.
+
+- Construyendo una RNA
+	Comenzamos con una función lineal
+
+		h(x1,x2) = w0 + w1x1 + w2x2
+
+	h: 		función hipótesis
+	x1, x2: 		entradas
+	w0, w1, w2: 	pesos (comúnmente w0 se llama “bias”)
+
+	Necesitamos saber qué valores de W para que nuestra hipótesis funcione.
+
+• Funciones de activación
+- Función escalón
+- Función logística
+- Función rectificadora (ReLU)
+
+Existen otras funciones de activación "g".
+Entonces, este es el modelo neuronal:
+		h(x1,x2) = g(w0 + w1x1 + w2x2)
+
+* Entrenar una red neuronal• Descenso de gradiente Algoritmo para minimizar la función de pérdida (o costo) al entrenar una red neuronal. 
+ La función de costo calcula qué tan incorrecta está la función hipótesis.
+ En cálculo, se puede calcular la gradiente de una función, esto nos da la dirección en la existe menor error.
+ Es decir, la dirección donde los valores generan la menor pérdida.
+Iniciar con valores aleatorio de pesos
+	Repetir:
+		- Calcular la gradiente que dirige a menos error, en base a todos los datos de entrenamiento.
+		- Actualizar los pesos de acuerdo a la gradiente.
+
+• Descenso de gradiente estocásticoIniciar con valores aleatorio de pesos
+	Repetir:
+		- Calcular la gradiente que dirige a menos error, en base a una observación de entrenamiento.
+		- Actualizar los pesos de acuerdo a la gradiente.
+
+• Descenso de gradiente por mini-lotes
+Iniciar con valores aleatorio de pesos
+	Repetir:
+		- Calcular la gradiente que dirige a menos error, en base a un un lote de observaciones de entrenamiento.
+		- Actualizar los pesos de acuerdo a la gradiente.
+
+• Perceptrón Multi Capa
+
+Modelo de red neuronal con una capa de entrada, una capa de salida y al menos una capa oculta.
+
+Cada una de las neuronas de la capa oculta calcula su propia activación.
+Las cuales se multiplican con los pesos de la segunda capa para generar la salida.
+La ventaja es que esta arquitectura permite modelar funciones no-lineales.
+
+• Backpropagation o RetropropagaciónAlgoritmo para entrenar redes neuronales con capas ocultas.
+	Iniciar los pesos con valores aleatorios pequeños cercanos a cero
+	Repetir el número de epochs pre-definidos:
+		• Calcular el error de la capa de salida
+		• Para cada capa, empezando con la capa de salida y retrocediendo en la red hacia la primera capa oculta
+		• Calcular la gradiente del error con respecto a los pesos
+		• Propagar el error hacia atrás
+		• Actualizar los pesos
+Una red neuronal profunda es una red con múltiples capas ocultas.
+Cada capa calcula algo diferente y así pueden modelarse funciones sofisticadas.
+
+
+
+
+

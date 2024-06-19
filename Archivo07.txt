@@ -1,0 +1,14 @@
+• Conocimiento (Agentes basados en conocimiento)
+  Son los agentes que razonan al operar con representaciones internas de conocimiento.
+
+	- Base de Conocimiento: Conjunto de oraciones conocidas por un agente basado en conocimiento.
+	- Oración: Una afirmación sobre el mundo en un lenguaje de representación del conocimiento.
+• Lógica Proposicional ()		
+	Símbolos Proposicionales
+P, Q, R: 
+		Estos son variables que representan proposiciones, las cuales pueden ser verdaderas (True) o falsas (False). Por ejemplo, P puede representar "Está lloviendo", Q puede representar "Es de noche", y R puede representar "Estoy estudiando".
+
+	¬ (Negación): Invierte el valor de verdad de una proposición. Si P es verdadera, ¬P es falsa, y viceversa.
+	^ (Conjunción): Es verdadera solo si ambas proposiciones son verdaderas. Se puede leer como "y".
+	v (Disyunción): Es verdadera si al menos una de las proposiciones es verdadera. Se puede leer como "o".
+	-> (Implicación): Es falsa solo si la primera proposición es verdadera y la segunda es falsa. Se puede leer como "si... entonces".

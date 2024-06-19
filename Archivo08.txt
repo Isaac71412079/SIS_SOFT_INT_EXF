@@ -1,0 +1,90 @@
+• Probabilidades
+(w) Omega representa un posible mundo.
+P(w) Esta es la notación de la probabilidad de que un mundo posible suceda.
+Axiomas:
+0 < = P(w) < = 1
+Un valor probabilístico siempre está en el rango entre 0 y 1, inclusivamente. 0 significa que JAMÁS sucede. 1 significa que SIEMPRE sucede.
+Las probabilidades de todos los mundos posibles es 1.
+
+• Variable Aleatoria
+Es una variable que tiene un dominio de posibles valores que pueden suceder.
+Se representan con letras mayúscula.
+En las llaves están los posibles valores del dominio.
+Ejemplo: 
+	X: lanzar una moneda = { cara, escudo }
+	Y: lanzar un dado = { 1, 2, 3, 4, 5, 6 }
+
+• Probabilidades Incondicionales
+Grado de creencia en una proposición donde no existe otro tipo de evidencia.
+Por ej: la probabilidad de que la suma de lanzar dos dados sea 9
+
+• Probabilidades Condicionales
+Grado de creencia en una proposición, sujeto a algún tipo de evidencia previamente revelada.
+Por ej: la probabilidad de que la suma de lanzar dos dados sea 9, con la condición que uno de los dos dados sea 3
+
+                      P( a ^ b )
+ P( a | b ) =  ——————
+                         P( b )
+Por propiedad conmutativa:
+
+P( a ^ b ) = P( a | b ) P( b )
+P( b ^ a ) = P( b | a ) P( a ) 
+
+Independencia (El conocimiento de un evento A no influencia la probabilidad de otro evento B)
+P( a ^ b ) = P( a ) P( b | a )
+
+Si los eventos son independientes, A no influencia la probabilidad de B, entonces:P( a ^ b ) = P( a ) P( b )
+
+La suma de las probabilidades siempre es 1.
+
+• Teorema de Bayes
+P( a ^ b ) = P( a ) P( b | a )
+
+Apliquemos un poco de álgebra
+                   P ( a | b ) P ( b )
+P( b | a ) = ————————
+                           P( a )Es una regla muy importante ya que te permite inferir cosas acerca del mundo. Se puede calcular la probabilidad condicional de un evento, utilizando la probabilidad condicional inversa.
+
+El teorema de Bayes es muy útil cuando es fácil obtener una probabilidad condicional.
+	SABIENDO
+		P (efecto visible | causa desconocida)
+	PODEMOS CALCULAR
+		P (causa desconocida | efecto visible)
+
+
+• Inferencia Bayesiana
+Es un tipo de inferencia estadística donde la evidencias recolectadas se usan para actualizar o inferir la probabilidad de que una hipótesis sea cierta.
+	                    P ( E | H ) P ( H )
+	P( H | E ) = ————————
+    	                             P( E )
+	H 	es una hipótesis
+	E 	es la evidencia observable
+	P (E | H)	es la verosimilitud
+	P (H) 	Probabilidad a priori de la hipótesis
+	P(E) 	Probabilidad marginal de la evidencia
+	P(H | E) 	probabilidad a posteriori
+
+• Probabilidad conjunta
+
+Dos distribuciones probabilísticas pueden entenderse independientemente.
+Si se tiene acceso a los datos, podemos formar una distribución de probabilidades conjunta.
+Es decir, se conoce las probabilidades de las posibles combinaciones de ambas variables aleatorias.
+
+• Reglas de la Probabilidad
+	- Negación: P (¬a) = 1 - P(a) => (Partiendo del hecho de que la suma de las probabilidades de todos los mundos posibles es 1)
+	- Principio de Inclusión-Exclusión o de la criba: P (a v b) = P(a) + P(b) - P(a ^ b)
+	- Marginalización: P(a) = P(a ^ b) + P(a ^ ¬b)• Redes Bayesianas
+Es una estructura de datos que representa dependencias entre variables aleatorias.
+	- Es un grafo dirigido
+	- Cada nodo representa una variable aleatoria
+	- Un vértice de X a Y representa que la distribución de Y depende de X
+	- Cada nodo X tiene una distribución probabilística P( X | Padres(X) )
+
+
+
+
+
+
+
+
+

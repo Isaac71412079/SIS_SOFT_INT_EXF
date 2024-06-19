@@ -1,0 +1,88 @@
+•Agentes Inteligentes
+
+
+Los agentes perciben el entorno a
+través de sensores y actúan en él a
+través de actuadores
+. El entorno podría ser cualquiera, el
+ universo entero. 
+En la práctica, solo nos interesa la 
+parte del entorno que afecta la 
+percepción y acción del agente.
+
+	- Percepción (percept) se refiere al contenido que 
+perciben los sensores del agente.
+ 
+	- Secuencia de percepción (percept sequence) es
+ el historial completo de todo lo que el agente ha
+ percibido.
+ La decisión de la siguiente acción en un instante dado depende del 	  conocimiento incorporado y en 
+la secuencia de percepción observada hasta ese
+ momento.
+
+	- El comportamiento de un agente se describe con 
+una "función de agente".
+
+La función agente "mapea" cualquier secuencia de percepción a una acción. Definición desde una perspectiva externa.
+El programa de agente es una implementación concreta e interna que corre en un sistema en ejecución.
+Una medida de rendimiento evalúa secuencias de estados.
+
+•   Entorno
+El entorno es esencialmente donde se 
+define una tarea o problema. 
+
+Para el cual un agente es la solución.
+
+Una tarea de IA se define con los 
+siguientes componentes (REAS) 
+
+	1. Rendimiento
+
+	2. Entorno
+
+	3. Actuadores
+
+	4. Sensores
+
+• Propiedades de los entornos
+	- Completamente observable vs Parcialmente observable
+
+		• Un agente provee acceso al estado completo del entorno en cualquier momento es completamente observable.
+		• Un entorno es parcialmente observable si el agente solo tiene acceso a una parte de la información del estado del entorno.
+	- Uni-agente vs Multi-agente
+
+		• Un entorno tiene un único agente que opera en él.
+		• Un entorno tiene múltiples agentes que interactúan entre sí.
+	- Determinista vs Estocástico
+
+		• Un entorno es determinista todo es certero no existe la incertidumbre.
+		• Un entorno estocástico se refiere a entornos donde se manejan probabilidades de manera explícita para modelar la incertidumbre.
+	- Episódico vs Secuencial
+
+		• Un entorno episódico el agente percibe el entorno y ejecuta una acción.
+		•  En un entorno secuencial las decisiones actuales podrían afectar decisiones futuras. 
+	- Estático vs Dinámico
+
+		• Un entorno es estático si no cambia mientras el agente está deliberando.
+		• Un entorno es dinámico si puede cambiar mientras el agente está deliberando.
+	- Discreto vs Continuo
+		• Un entorno es discreto si tiene un número finito de estados posibles.
+		• Un entorno es continuo si tiene un número infinito de estados posibles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

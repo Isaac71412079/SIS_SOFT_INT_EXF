@@ -1,0 +1,80 @@
+•  La IA consiste en entender pero tambien en construir entidades inteligentes. Sus campos son General y Específico, abarca el campo universal.
+La inteligencia es el desempeño humano de hacer lo correcto con racionalidad "hacer lo correcto".
+
+Desempeño humano y Comportamiento => Actuar Humanamente (Test de Turing)
+Racionalidad y Comportamiento => Actuar Racionalmente (Agente Racional)
+Desempeño humano y Pensamiento => Pensar Humanamente (Modelo Cognitivo)
+Racionalidad y Pensamiento => Pensar Racionalmente (Las Leyes del Pensamiento)
+ 
+•  Test de Turing - Actuar Humanamente
+
+Evalua la capacidad de una máquina para exhibir comportmiento inteligente similar al de un humano.
+Una computadora pasa el test si, después de formular preguntas, el humano interogador no puede determinar si las respuestas vienen de un humano o una máquina.
+
+Requerimientos:
+	- Procesamiento de Lenguaje Natural => Para comunicarse
+	- Representación de conocimiento => Para almacenar lo que sabe o escucha
+	- Razonamiento automatizado => Para responder preguntas y sacar conclusiones
+	- Aprendizaje automático (ML) => Para adaptarse a nuevas circunstancias
+
+Los detractores del Test de Turing son:
+	- Construir una computadora que pueda engañar a humanos resulta trivial; por ejemplo, abusando de técnicas psicológicas como la empatía y las obsesiones.
+
+	- El Test de Turing no incluye una forma de evaluar la inteligencia contenida en cuerpos físicos y su interacción con el entorno.
+
+•   Modelo Cognitivo - Pensar Humanamente
+
+	- Introspección: analizar lo pensamiento mientras suceden.
+	- Experimentos psicológicos: observando una persona en acción.
+	- Imágenes cerebrales: observando el cerebro en acción.
+
+Allen Newell y herbert Simon desarrollaron GPS o General Problem Solver, no solo se enfocaba en resolver problemas corretamente , sino también simulaba los tiempos de las secuencias de los pasos requeridos para el razonamiento que mostraban los humanos en el experimento.
+La ciencia cognitiva interecta con la psicología y la experimentación humana y animal.
+
+•   Las Leyes del Pensamiento - Pensar Racionalmente
+Pensar correctamente al procesamiento de razonamiento irrefutable.
+Los silogismos proveyeron patrones para estructuras de argumentación que resultaban en conclusiones corrctas dadas premisas correctas.
+Se inicia el estudio de la lógica porque las leyes de pensamiento gobernaban las operaciones mentales.
+	- La lógica requiere de conocimeinto certero acerca del mundo. 
+	- La teoría de las probabilidades viene a salvarnos ya que permite el razonamiento riguroso de la incertidumbre.
+	- Lo que no hace es generar comportamiento inteligente.
+
+•   Agente Racional - Actuar Racionalmente
+
+Un agente es un ente que actúa. Actúa e manera que logra el mejor resultado en incertidumbre, actúa tal que espera el mejor resultado.
+Se espera que un agente racional:
+
+	- Opere autónomamente
+	- Perciba su entorno 
+	- Persista por periodos prolongados de tiempo
+	- Se adapte a los cambios
+	- Cree y persiga objetivos
+
+La propuesta de los AR es mejor que las Leyes del pensamiento porque:
+
+	- Es más general, hacer inferencias no es la única manera de lograr racionalidad.
+	- La racionalidad se puede definir formal y matemáticamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
