@@ -1,26 +1,187 @@
-Problemas de b�squeda
-- Agente: Entidad que percibe su entorno y act�a en �l.
+Problemas de búsqueda
+- Agente: Entidad que percibe su entorno y actúa en él.
 
-	� Composici�n:
+	• Composición:
 		- Estado inicial
 		- Acciones
-		- Modelo de transici�n
+		- Modelo de transición
 		- Prueba de objetivo
 		- Costos de ruta
 
-� Estados: Alguna configuraci�n del agente y su entorno.
-� Acciones: Opciones que se pueden tomar en un estado. 
+• Estados: Alguna configuración del agente y su entorno.
+• Acciones: Opciones que se pueden tomar en un estado. 
 
-� Modelo de transici�n
-El modelo de transici�n es una descripci�n de los estados que resultan al aplicar acciones v�lidas a cualquier estado.
-Modelo de transici�n como funci�n computacional, La funci�n retorna un Estado como resultado de aplicar la Acci�n de entrada al Estado de entrada.
+• Modelo de transición
+El modelo de transición es una descripción de los estados que resultan al aplicar acciones válidas a cualquier estado.
+Modelo de transición como función computacional, La función retorna un Estado como resultado de aplicar la Acción de entrada al Estado de entrada.
 
-� Espacio de Estados: es el modelo de transici�n desde una perspectiva general a trav�s de todo el problema.
-Representaci�n del problema donde se encuentran los estados individuales conectados por flechas que indican las posibles acciones que se pueden tomar, pueden ser muy grandes y complicados, para simplificar esto, tambi�n se utiliza la representaci�n tradicional de grafos. Donde los nodos representan estados y los v�rtices representan las acciones.
+• Espacio de Estados: es el modelo de transición desde una perspectiva general a través de todo el problema.
+Representación del problema donde se encuentran los estados individuales conectados por flechas que indican las posibles acciones que se pueden tomar, pueden ser muy grandes y complicados, para simplificar esto, también se utiliza la representación tradicional de grafos. Donde los nodos representan estados y los vértices representan las acciones.
 
-� Prueba de objetivo: Manera de determinar si un estado en concreto es el deseado, , es posible que exista un o m�ltiples objetivos.
+• Prueba de objetivo: Manera de determinar si un estado en concreto es el deseado, , es posible que exista un o múltiples objetivos.
 
-� Costo de Ruta: Costo num�rico asociado a una ruta espec�fica, puede ser dinero, tiempo u otra m�trica.
+• Costo de Ruta: Costo numérico asociado a una ruta específica, puede ser dinero, tiempo u otra métrica.
 
-=> Soluci�n �ptima: La soluci�n que implica el menor costo entre todas las soluciones, es decir, que no existe una mejor soluci�n.
+=> Solución óptima: La solución que implica el menor costo entre todas las soluciones, es decir, que no existe una mejor solución.
 
+Aquí tienes las respuestas a las preguntas:
+
+1. **El rol de la tecnología para la humanidad**:
+   - Optimizar los procesos industriales
+   - Maximizar oportunidades y reducir riesgos
+   - Mejorar la calidad de vida de los seres humanos
+   - Maximizar ganancias y minimizar riesgos
+   - **Servir como herramienta fundamental para el desarrollo** (respuesta correcta)
+
+2. **El problema de crear IA bajo la propuesta de pensar racionalmente**:
+   - No está basada en los principios subyacentes de la inteligencia natural
+   - Es fácil de engañar replicando comportamiento humano como la empatía y la obsesión
+   - **La lógica es muy útil, pero no es suficiente para diseñar racionalidad** (respuesta correcta)
+   - Requiere demasiada experimentación psicológica para formar un sustento
+
+3. **Requerimiento que NO está incluido en el Test de Turing Total**:
+   - Representación de Conocimiento
+   - Procesamiento de Lenguaje Natural
+   - **Fairness, explicabilidad y transparencia** (respuesta correcta)
+   - Visión por computadora y reconocimiento de voz
+
+4. **Para un agente inteligente, ¿qué es una medida de rendimiento?**:
+   - Una medida para evaluar la implementación interna del sistema
+   - **Una medida para evaluar las acciones tomadas en función al entorno** (respuesta correcta)
+   - Una medida que sirve para maximizar los recursos internos del agente
+   - Una medida para comprender la transformación del entorno de desenvolvimiento
+
+5. **Considera un agente de recomendación de libros en línea implementado con una red neuronal que puede recomendar 1000 libros. Selecciona la afirmación INCORRECTA.**:
+   - El agente está en un entorno episódico
+   - El agente está en un entorno discreto
+   - Los sensores son los periféricos de dispositivo y paquetes de red
+   - **Es el agente está en entorno multi-agente** (respuesta correcta)
+
+6. **En problemas de búsqueda; frontera es...**:
+   - **Una colección de estados que contiene los estados a ser visitados** (respuesta correcta)
+   - El o los estados objetivo en un espacio de estados
+   - Los nodos terminales del grafo dirigido que representa el espacio de estados
+   - Una estructura de datos para contener los estados visitados
+
+7. **Selecciona la afirmación INCORRECTA acerca del algoritmo de búsqueda en amplitud**:
+   - **Dadas las condiciones computaciones, es garantizado que encuentra una solución óptima** (respuesta correcta)
+   - Usa una estructura tipo FIFO (first in, first out) para expandir estados
+   - Es ineficiente porque es exhaustivo y requiere recordar caminos largos
+   - Es poco eficiente porque es exhaustivo y requiere mucha memoria para explorar
+
+8. **Minimax con poda alfa beta es**:
+   - Un algoritmo de búsqueda adversaria optimizada para encontrar el camino más corto
+   - **Una optimización de Minimax regular para evitar visitar nodos irrelevantes** (respuesta correcta)
+   - Un algoritmo de búsqueda informada que usa una heurística para guiar la búsqueda
+   - Una variante de un algoritmo de búsqueda donde se limita la profundidad en base a dos variables
+
+9. **Selecciona el juego que NO tiene sentido resolver con una base de conocimiento y lógica proposicional**:
+   - Detective (Clue)
+   - Buscaminas
+   - **Risk** (respuesta correcta)
+   - Sudoku
+
+10. **El problema de modelar IA solo con sistemas basados en conocimiento**:
+    - La gran demanda computacional y la tratabilidad de los problemas
+    - Se perdió interés desde el último invierno de la IA y ya no se lograron más avances desde entonces
+    - **La imposibilidad de modelar el mundo y sus propiedades con lógica y certidumbre** (respuesta correcta)
+    - Los sesgos, prejuicios e injusticias de los humanos son transferidos a las bases de conocimiento
+
+11. **¿Cuál es la probabilidad de sacar un 3, de una baraja de 52 cartas? La baraja está compuesta por picas, espadas, corazones y tréboles.**:
+    - 3/52
+    - **4/52** (respuesta correcta)
+    - 12/52
+    - 0
+
+12. **El teorema de Bayes**:
+    - **Permite modelar probabilidades condicionales de tipo "probabilidad de A dado B"** (respuesta correcta)
+    - Sirve para calcular distribuciones probabilísticas con mayor certeza
+    - Establece los axiomas de la teoría de probabilidades
+    - Permite calcular una probabilidad condicional utilizando la probabilidad condicional inversa
+
+13. **Selecciona el problema donde NO tiene sentido aplicar el teorema de Bayes**:
+    - Calcular la probabilidad de tener una enfermedad dado el resultado de una prueba
+    - **Calcular la probabilidad de la jugada de ajedrez del oponente dado un tablero de juego** (respuesta correcta)
+    - Calcular la probabilidad de que un billete sea falso dado que el texto esté borroso
+    - Calcular la probabilidad de que un correo sea spam dadas las palabras de su contenido
+
+14. **Para incursionar seriamente en prácticas de Deep Learning e IA basada en Big Data es necesario**:
+    - Estar muy familiarizado con las reglas de la probabilidad
+    - Poder implementar programas para aprendizaje por refuerzo
+    - **Obtener grandes volúmenes de datos etiquetados, tratar nulos y eliminar duplicados** (respuesta correcta)
+    - Recolectar y transportar datos, almacenarlos, analizarlos, pre-procesarlos y en algunos casos, etiquetarlos
+
+15. **El movimiento 37 de Alpha Go**:
+    - Indica un avance significativo en aprendizaje no supervisado
+    - **Es un hito en la historia de la IA porque ningún humano la había considerado efectiva** (respuesta correcta)
+    - Es la primera evidencia del nuevo boom de Deep Learning gracias a los datos y el poder de procesamiento
+    - Fue el único error que la IA cometió y permitió que Lee Sedol gane una partida de Go
+
+16. **Clustering**:
+    - Es una técnica de aprendizaje supervisado para segmentar imágenes
+    - Es una técnica de aprendizaje no supervisado para segmentar imágenes
+    - **Es una técnica de aprendizaje no supervisado para agrupar objetos similares** (respuesta correcta)
+    - Es una técnica de aprendizaje no supervisado para analizar mercados y redes sociales
+
+17. **La media y la moda están significativamente separadas**:
+    - Por lo tanto, la moda debe estar entre la media y la moda
+    - **Podemos concluir que la distribución es asimétrica** (respuesta correcta)
+    - Esto implica que los datos siguen una distribución normal (Gaussiana)
+    - Entonces el sesgo es positivo
+
+18. **"Alta correlación NO implica causalidad", Selecciona las posibles razones por las cuales puede haber confusión**:
+    - Mera casualidad
+    - Una tercera variable es la verdadera causa
+    - La causa es unidireccional, un evento causa al otro, pero no viceversa
+    - **El coeficiente Pearson tiende a cero** (respuesta correcta)
+
+19. **El principio de Hebb**:
+    - Sostiene que es posible modelar cualquier función lógica con perceptrones
+    - Demuestra que el interior de la mente está compuesta por asociaciones entre conceptos
+    - **Asegura que una neurona se activa si recibe suficiente estímulo electromagnético presináptico** (respuesta correcta)
+    - Propone que la fuerza sináptica se actualiza en función de la actividad neuronal local
+
+20. **El problema del perceptrón es que**:
+    - el peso "w0" puede sesgar el resultado de la inferencia comprometiendo la precisión
+    - es costoso de entrenar debido a los cálculos del descenso de gradiente
+    - **están limitados a aprender límites de decisión lineales** (respuesta correcta)
+    - solo permite un máximo de entradas y pesos
+
+21. **Es un cálculo computacionalmente ineficiente para grandes sets de datos**:
+    - **Descenso de gradiente** (respuesta correcta)
+    - Descenso de gradiente estocástico
+    - Descenso de gradiente en mini-lotes
+    - Descenso de gradiente dinámico
+
+22. **¿Para qué sirven las capas ocultas de una RNA?**:
+    - Para simplificar los cálculos internos de la red
+    - Para reducir la demanda de poder computacional de entrenamiento
+    - **Para evitar el sobreajuste o el subajuste del aprendizaje** (respuesta correcta)
+    - Para descomponer y distribuir el aprendizaje en distintas regiones de la red
+
+23. **El sobreajuste sucede cuando el modelo**:
+    - tiene una precisión baja en el set de entrenamiento pero una precisión alta en el set de validación.
+    - **tiene un alto rendimiento en el set de entrenamiento pero un rendimiento bajo en el de validación** (respuesta correcta)
+    - tiene un rendimiento bajo tanto en el set de entrenamiento como en el de validación.
+    - tiene una precisión alta en el set de validación y una precisión baja en el set de entrenamiento.
+
+24. **El proceso de circunvolución se usa en las redes neuronales circunvolucionales (CNNs) para**:
+    - aplicar filtros a pequeñas regiones de las imágenes
+    - **extraer características visuales de subregiones de las imágenes** (respuesta correcta)
+    - escalar las imágenes, reducir su dimensionalidad y facilitar el procesamiento
+    - aplicar filtros para que la imagen sea más
+
+ nítida, borrosa, resaltar los bordes u otros efectos
+
+25. **El sesgo puede ser introducido en un sistema inteligente debido a**:
+    - El mundo en el que vivimos
+    - El proceso de recolección descuidada de los datos
+    - No aplicar técnicas que aseguren la imparcialidad del aprendizaje
+    - **Todas las anteriores** (respuesta correcta)
+    - Ninguna de las anteriores
+
+26. **La IA General es**:
+    - Una implementación concreta de IA que presupone autonomía de aprendizaje
+    - Una teoría de IA que replica todas las propiedades subyacentes de la inteligencia humana
+    - **Una definición teórica de IA que presupone autonomía de aprendizaje** (respuesta correcta)
+    - Un tipo de IA que supera todas las capacidades intelectuales de los humanos
